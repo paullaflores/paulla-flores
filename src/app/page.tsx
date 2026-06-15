@@ -54,11 +54,11 @@ export default function Home() {
                 da arte e do amor-próprio
               </h1>
               <p className="text-[#666666] text-lg font-normal leading-relaxed mb-8">
-                Há 19 anos, Paulla Flores ajuda pessoas a saírem de dores
-                físicas e emocionais. Fisioterapeuta, escritora, cantora,
-                palestrante e pioneira da Microfisioterapia no Espírito Santo,
-                ela integra saúde emocional, literatura e música em uma jornada
-                de cuidado, cultura e transformação.
+                Há 19 anos, Paulla Flores ajuda pessoas a saírem de dores físicas e emocionais.
+                Fisioterapeuta, pioneira com a prática da Microfisioterapia no Estado do Espírito Santo,
+                ajudando o corpo a identificar traumas emocionais. Ela integra saúde emocional
+                e mental com literatura e música, como escritora, cantora e palestrante. Em uma
+                jornada de autocuidado, autoconhecimento, cultura e transformação.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
