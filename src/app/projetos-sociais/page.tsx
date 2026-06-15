@@ -44,13 +44,13 @@ export default function ProjetosSociaisPage() {
                 Projetos Sociais
               </h1>
               <p className="text-white/90 text-xl mb-6">
-                Levando amor, cultura e cuidado para quem mais precisa
+                Levando amor, saúde mental e emocional, cultura e cuidado para quem mais precisa.
               </p>
               <p className="text-white/80 text-lg leading-relaxed">
-                Através de projetos culturais e educativos, Paulla Flores promove acesso
-                democrático à literatura, música e reflexões sobre o bem-estar. Suas
-                iniciativas valorizam talentos locais e estimulam o pertencimento coletivo,
-                construindo pontes entre pessoas, cultura e esperança.
+                Através da ciência (saúde mental e emocional) de projetos culturais e educativos,
+                Paulla Flores promove acesso democrático à literatura, música e reflexões sobre o
+                bem-estar. Suas iniciativas valorizam talentos locais e estimulam o pertencimento
+                coletivo, construindo pontes entre pessoas, cultura e esperança.
               </p>
             </div>
           </div>
