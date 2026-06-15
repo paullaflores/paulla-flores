@@ -29,9 +29,9 @@ const faqs = [
       "Sim. A técnica pode ser aplicada em diferentes faixas etárias, desde bebês até idosos, sempre respeitando as particularidades de cada fase.",
   },
   {
-    question: "Quanto tempo dura uma sessão?",
+    question: "Quantas sessões são necessárias e quanto tempo dura cada uma?",
     answer:
-      "Em média entre 60 e 90 minutos, podendo variar conforme a demanda e a resposta do organismo.",
+      "O protocolo padrão é de 3 a 4 sessões, realizadas uma vez por mês, com duração de 40 a 60 minutos cada. O número pode variar conforme a condição tratada e a resposta do organismo de cada pessoa.",
   },
   {
     question: "Os resultados aparecem imediatamente?",
