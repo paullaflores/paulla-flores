@@ -61,10 +61,6 @@ export default function ProjetosSociaisPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:items-stretch">
               <div>
-                <span className="inline-block bg-[#F4655A] text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
-                  Prêmio Mulher ArcelorMittal 2024
-                </span>
-
                 <h2 className="text-3xl font-semibold text-gray-900 mb-6">
                   Sair da Agressão e Ir para o Amor
                 </h2>
@@ -121,8 +117,7 @@ export default function ProjetosSociaisPage() {
                 <p className="text-gray-700 text-lg leading-relaxed mb-5">
                   O Projeto Amor Literário nasceu do desejo de espalhar a força da
                   literatura capixaba por todo o Brasil. Paulla Flores, autora de
-                  &ldquo;Cadê o Amor? Dos Espinhos à Flor&rdquo; (vencedor do Prêmio Mulher
-                  ArcelorMittal 2024), e Amanda Carvalho, autora de histórias sobre
+                  &ldquo;Cadê o Amor? Dos Espinhos à Flor&rdquo;, e Amanda Carvalho, autora de histórias sobre
                   inclusão e infância, uniram-se para levar amor, cultura e inspiração
                   através dos livros.
                 </p>
