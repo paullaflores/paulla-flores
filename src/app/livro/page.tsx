@@ -185,13 +185,12 @@ export default function LivroPage() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 w-full">
             <div className="max-w-xl text-left">
               <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-4">
-                Próximo livro a caminho
+                O amor continua... o próximo livro está chegando
               </h2>
-              <p className="text-white/90 text-lg leading-relaxed mb-3">
-                A pedido de muitas leitoras, &ldquo;Cadê o Amor? 2&rdquo; já está sendo escrito.
-              </p>
               <p className="text-white/90 text-lg leading-relaxed mb-10">
-                Siga no Instagram para acompanhar bastidores e ser a primeira a saber quando será lançado.
+                Atendendo aos pedidos de muitas leitoras, uma nova jornada já começou. O segundo
+                livro está sendo escrito com ainda mais amor, verdade e inspiração. Em breve, mais
+                uma história para tocar corações e transformar vidas.
               </p>
               <a
                 href="https://www.instagram.com/eupaullaflores"
