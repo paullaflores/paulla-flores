@@ -130,64 +130,16 @@ export default function MicrofisioterapiaPage() {
           </div>
         </section>
 
-        {/* Seção 3 — O que é Microfisioterapia */}
-        <section className="py-20 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div>
-                <h2 className="text-3xl font-semibold text-gray-900 mb-6">
-                  O que é Microfisioterapia?
-                </h2>
-                <p className="text-gray-700 text-lg leading-relaxed mb-5">
-                  É uma técnica da Fisioterapia que utiliza toques extremamente suaves,
-                  com pressão mínima, para detectar perturbações no organismo causadas
-                  por agentes patogênicos como vírus, bactérias, traumas físicos, choques
-                  emocionais e toxinas.
-                </p>
-                <p className="text-gray-700 text-lg leading-relaxed mb-5">
-                  Esses agentes podem deixar rastros no tecido celular, criando bloqueios
-                  que impedem o organismo de funcionar em sua plena capacidade. A Microfisioterapia
-                  atua localizando esses bloqueios e estimulando o próprio corpo a reorganizá-los.
-                </p>
-                <p className="text-gray-700 text-lg leading-relaxed mb-8">
-                  Diferente de outras terapias manuais, a Microfisioterapia não age de forma
-                  diretiva sobre o sintoma, mas convida o organismo a encontrar seu próprio
-                  caminho de equilíbrio, respeitando sua inteligência natural de cura.
-                </p>
-                <a
-                  href="https://wa.me/5527997385950?text=Ola!%20Gostaria%20de%20agendar%20uma%20sessao%20de%20Microfisioterapia%20com%20a%20Paulla%20Flores.%20Poderia%20me%20passar%20mais%20informacoes%3F"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-[#F4655A] text-white px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-opacity"
-                >
-                  Agendar Minha Sessão
-                </a>
-              </div>
-              <div>
-                <Image
-                  src="/images/micro-beneficios.jpg"
-                  alt="Microfisioterapia — benefícios"
-                  width={600}
-                  height={450}
-                  className="w-full h-auto rounded-2xl object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Seção 4 — Vídeo YouTube */}
-        <section className="py-16 bg-[#FDF0E8]">
-          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-semibold text-gray-900 mb-3">
-                Assista e entenda melhor
-              </h2>
-              <p className="text-gray-500 text-base">
-                Dra. Paulla Flores explica o que é a Microfisioterapia
-              </p>
-            </div>
-            <div className="relative w-full aspect-video">
+        {/* Seção 3 — Vídeo YouTube */}
+        <section className="py-16 bg-white">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-semibold text-gray-900 mb-3">
+              Assista e entenda melhor
+            </h2>
+            <p className="text-gray-500 text-lg mb-8">
+              Descubra como a Microfisioterapia pode transformar sua saúde física e emocional
+            </p>
+            <div className="relative w-full aspect-video mb-8">
               <iframe
                 src="https://www.youtube.com/embed/6ncq2KSgFvw"
                 title="O que é a Microfisioterapia?"
@@ -197,10 +149,18 @@ export default function MicrofisioterapiaPage() {
                 className="absolute inset-0 w-full h-full rounded-xl"
               />
             </div>
+            <a
+              href="https://wa.me/5527997385950?text=Ola!%20Gostaria%20de%20agendar%20uma%20sessao%20de%20Microfisioterapia%20com%20a%20Paulla%20Flores.%20Poderia%20me%20passar%20mais%20informacoes%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#F4655A] text-white px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-opacity"
+            >
+              Agendar Minha Sessão
+            </a>
           </div>
         </section>
 
-        {/* Seção 5 — Como pode ajudar */}
+        {/* Seção 4 — Como pode ajudar */}
         <section className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
