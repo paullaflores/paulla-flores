@@ -32,21 +32,49 @@ export default function ProductCard() {
           Cadê o Amor?: Dos Espinhos à Flor
         </h2>
         <p className="text-gray-500 text-sm mb-6">
-          por Dra Paulla Flores Flores&nbsp;|&nbsp;Formato: Capa comum
+          por Paulla Flores&nbsp;|&nbsp;Formato: Capa comum
         </p>
 
-        <p className="text-gray-600 text-sm leading-relaxed mb-3">
-          Um guia para reencontrar o amor-próprio e transformar feridas em flores.
+        <p className="text-gray-600 text-sm leading-relaxed mb-5">
+          Presenteie suas colaboradoras com uma história de superação, amor-próprio e
+          transformação. Uma excelente opção para ações de valorização, desenvolvimento
+          humano, campanhas internas e datas comemorativas.
         </p>
-        <p className="text-gray-600 text-sm leading-relaxed mb-3">
-          Mais do que uma biografia, este livro é uma jornada de cura, fé, superação
-          e autodescoberta.
+
+        <p className="text-sm font-semibold text-[#6B3A2A] mb-3">
+          Condições especiais para empresas e instituições:
         </p>
-        <p className="text-gray-600 text-sm leading-relaxed mb-6">
-          Em suas páginas, Paulla Flores compartilha sua história com coragem e
-          sensibilidade, conduzindo o leitor a refletir sobre traumas, relacionamentos,
-          criança interior, autoestima e amor-próprio.
+        <div className="flex flex-col gap-2 mb-5">
+          {[
+            { range: "Até 10 livros", price: "R$ 40,00 por unidade" },
+            { range: "De 11 a 49 livros", price: "R$ 30,00 por unidade" },
+            { range: "Acima de 50 livros", price: "R$ 25,00 por unidade" },
+          ].map((item) => (
+            <div key={item.range} className="flex items-center justify-between bg-[#FDF0E8] rounded-lg px-4 py-2.5">
+              <span className="text-sm text-gray-700 flex items-center gap-2">
+                <svg className="w-4 h-4 shrink-0 text-[#F4655A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+                {item.range}
+              </span>
+              <span className="text-sm font-semibold text-[#F4655A]">{item.price}</span>
+            </div>
+          ))}
+        </div>
+
+        <p className="text-gray-600 text-sm leading-relaxed mb-5">
+          Ao presentear um livro, sua empresa oferece mais do que páginas: oferece
+          acolhimento, inspiração e a oportunidade de transformar vidas por meio da leitura.
         </p>
+
+        <a
+          href="https://wa.me/5527997385950?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20compra%20de%20livros%20em%20quantidade"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full text-center border-2 border-[#F4655A] text-[#F4655A] py-3 rounded-full font-semibold text-sm hover:bg-[#F4655A] hover:text-white transition-colors mb-6"
+        >
+          Solicitar orçamento pelo WhatsApp
+        </a>
 
         {/* Preço */}
         <div className="mb-6">
