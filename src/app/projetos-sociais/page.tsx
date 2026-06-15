@@ -160,7 +160,7 @@ export default function ProjetosSociaisPage() {
             <h2 className="text-3xl font-semibold text-gray-900 text-center mb-4">
               Premiações
             </h2>
-            <p className="text-gray-500 text-lg italic text-center max-w-2xl mx-auto mb-12">
+            <p className="text-[#6B3A2A] text-xl text-center max-w-2xl mx-auto mb-12 leading-relaxed">
               &ldquo;Quando o amor-próprio encontra propósito, a transformação acontece. Um projeto premiado duas vezes por fortalecer mulheres e comunidades.&rdquo;
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -174,14 +174,14 @@ export default function ProjetosSociaisPage() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-3 mb-2">
-                    <svg className="w-6 h-6 text-[#F4655A] shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                <div className="p-8">
+                  <div className="flex items-center gap-3 mb-3">
+                    <svg className="w-7 h-7 text-[#F4655A] shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V17H8v2h8v-2h-3v-1.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zm-2 3c0 1.65-1.35 3-3 3s-3-1.35-3-3V5h6v3zm-10 0V7H5V7c0 1.65 1.35 3 3 3V8zm14 0h-2V7h2v1z"/>
                     </svg>
-                    <h3 className="text-xl font-semibold text-gray-900">Prêmio Elas</h3>
+                    <h3 className="text-2xl font-semibold text-gray-900">Prêmio Elas</h3>
                   </div>
-                  <p className="text-gray-500 text-sm">Secretaria da Mulher — Estado do ES, 2025</p>
+                  <p className="text-gray-500 text-base">Secretaria da Mulher — Estado do Espírito Santo, 2025</p>
                 </div>
               </div>
 
@@ -195,14 +195,14 @@ export default function ProjetosSociaisPage() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-3 mb-2">
-                    <svg className="w-6 h-6 text-[#F4655A] shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                <div className="p-8">
+                  <div className="flex items-center gap-3 mb-3">
+                    <svg className="w-7 h-7 text-[#F4655A] shrink-0" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V17H8v2h8v-2h-3v-1.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zm-2 3c0 1.65-1.35 3-3 3s-3-1.35-3-3V5h6v3zm-10 0V7H5V7c0 1.65 1.35 3 3 3V8zm14 0h-2V7h2v1z"/>
                     </svg>
-                    <h3 className="text-xl font-semibold text-gray-900">Prêmio Mulher ArcelorMittal</h3>
+                    <h3 className="text-2xl font-semibold text-gray-900">Prêmio Mulher ArcelorMittal</h3>
                   </div>
-                  <p className="text-gray-500 text-sm">ArcelorMittal, 2024</p>
+                  <p className="text-gray-500 text-base">ArcelorMittal, 2024</p>
                 </div>
               </div>
             </div>
@@ -210,7 +210,7 @@ export default function ProjetosSociaisPage() {
         </section>
 
         {/* Seção 5 — CTA Final */}
-        <section className="py-24 bg-[#FDF0E8]">
+        <section className="py-24 bg-white">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-semibold text-gray-900 mb-5">
               Ajude o amor a acontecer
