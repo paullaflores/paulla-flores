@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -177,7 +176,31 @@ export default function MicrofisioterapiaPage() {
           </div>
         </section>
 
-        {/* Seção 4 — Como pode ajudar */}
+        {/* Seção 4 — Vídeo YouTube */}
+        <section className="py-16 bg-[#FDF0E8]">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-semibold text-gray-900 mb-3">
+                Assista e entenda melhor
+              </h2>
+              <p className="text-gray-500 text-base">
+                Dra. Paulla Flores explica o que é a Microfisioterapia
+              </p>
+            </div>
+            <div className="relative w-full aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/6ncq2KSgFvw"
+                title="O que é a Microfisioterapia?"
+                style={{ border: "none" }}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full rounded-xl"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Seção 5 — Como pode ajudar */}
         <section className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
