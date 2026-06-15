@@ -14,15 +14,15 @@ export default function ProductCard() {
   const [qty, setQty] = useState(1);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:items-stretch">
       {/* Imagem da capa */}
-      <div className="flex justify-center lg:justify-start">
+      <div className="relative h-full min-h-[500px] lg:min-h-[600px]">
         <Image
           src="/images/capa-livro.jpg"
           alt="Capa do livro Cadê o Amor?"
-          width={400}
-          height={560}
-          className="rounded-2xl shadow-lg object-cover"
+          fill
+          className="rounded-2xl shadow-lg object-contain"
+          sizes="(max-width: 1024px) 100vw, 50vw"
         />
       </div>
 
