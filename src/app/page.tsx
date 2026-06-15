@@ -22,12 +22,12 @@ const authorityCards = [
   },
   {
     title: "Palestras",
-    description: "Encontro com a ciência e saúde",
+    description: "Encontro com a Saúde Mental e a Arte",
     icon: "/images/icone-palestras.svg",
   },
   {
     title: "Projetos Sociais",
-    description: "Ações que levam amor, cultura e cuidado",
+    description: "Ações que levam Educação Emocional com amor, cultura e cuidado",
     icon: "/images/icone-projetos-sociais.svg",
   },
   {
