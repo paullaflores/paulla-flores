@@ -25,6 +25,8 @@ const conditions = [
   "Alergias",
   "Fadiga constante",
   "Dificuldade de concentração",
+  "TDAH (Transtorno do Déficit de Atenção com Hiperatividade)",
+  "Autoconhecimento",
   "Alterações emocionais relacionadas a traumas",
 ];
 
