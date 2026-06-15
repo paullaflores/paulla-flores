@@ -56,7 +56,7 @@ export default function Home() {
               <p className="text-[#666666] text-lg font-normal leading-relaxed mb-8">
                 Há 19 anos, Paulla Flores ajuda pessoas a saírem de dores físicas e emocionais.
                 Fisioterapeuta, pioneira com a prática da Microfisioterapia no Estado do Espírito Santo,
-                ajudando o corpo a identificar traumas emocionais. Ela integra saúde emocional
+                técnica que ajuda o corpo a identificar e liberar traumas emocionais. Ela integra saúde emocional
                 e mental com literatura e música, como escritora, cantora e palestrante. Em uma
                 jornada de autocuidado, autoconhecimento, cultura e transformação.
               </p>
