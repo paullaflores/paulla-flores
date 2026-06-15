@@ -124,7 +124,7 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span>R. Dr. Jairo de Matos Pereira, Ed. Praia Corporate — Praia da Costa, Vila Velha - ES, 29101-310</span>
+                <span>Atendimentos: Vila Velha e Alegre - ES</span>
               </a>
             </div>
           </div>
