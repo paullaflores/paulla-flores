@@ -50,7 +50,7 @@ export default function ProductCard() {
 
         {/* Preço */}
         <div className="mb-6">
-          <span className="text-4xl font-semibold text-[#F4655A]">R$ 50,72</span>
+          <span className="text-4xl font-semibold text-[#F4655A]">R$ 60,00</span>
         </div>
 
         {/* Especificações */}

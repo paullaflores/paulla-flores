@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -141,17 +140,16 @@ export default function LivroPage() {
                   de pessoas que passaram por seu consultório.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Há 15 anos atua como fisioterapeuta, e há 14 anos se dedica à
+                  Há 20 anos atua como fisioterapeuta, e há 19 anos se dedica à
                   Microfisioterapia, a fisioterapia das emoções, técnica desenvolvida na
                   França e que consiste em estimular a autorregulação e a autocura do
                   organismo através das mãos. É pioneira no Espírito Santo e uma das
                   pioneiras no Brasil nessa técnica.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  Com mais de 19 anos dedicados à Microfisioterapia, Paulla descobriu que
-                  corpo e emoção caminham juntos. Hoje, como fisioterapeuta, escritora,
-                  cantora e palestrante, sua missão é transformar dores em flores,
-                  histórias em inspiração e corpos em vozes que falam, sentem e se curam.
+                  Hoje, como fisioterapeuta, escritora, cantora e palestrante, sua missão
+                  é transformar dores em flores, histórias em inspiração e corpos em vozes
+                  que falam, sentem e se curam.
                 </p>
                 <p className="text-sm text-gray-400 mt-4">CREFITO 105294-F</p>
               </div>
