@@ -247,24 +247,27 @@ export default function Home() {
                   Antes, Paula Bragança. Hoje, Paulla Flores, para o desabrochar da vida.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Durante muitos anos, escondi minha arte e minha voz. Minha vida
+                  Durante muitos anos, escondi minha arte e minha voz. Minha trajetória
                   profissional começou no curso de Letras, mas foi na Fisioterapia que
-                  encontrei um caminho de cura, primeiro para mim, depois para centenas
+                  encontrei um caminho de cura, primeiro para mim e, depois, para centenas
                   de pessoas que passaram pelo meu consultório.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                  Há 15 anos atuo como fisioterapeuta, e há 14 anos me dedico à
-                  Microfisioterapia, a fisioterapia das emoções, técnica desenvolvida na
-                  França e que consiste em estimular a autorregulação e a autocura do
-                  organismo através das mãos. Sou pioneira no Espírito Santo e uma das
-                  pioneiras no Brasil nessa técnica, com mais de 10.980 horas de
-                  consultório e mais de 19 anos descobrindo que corpo e emoção caminham
-                  juntos.
+                  Há 20 anos atuo como fisioterapeuta e, há 19 anos, dedico-me à
+                  Microfisioterapia, a fisioterapia das emoções, uma técnica desenvolvida
+                  na França que estimula a autorregulação e os processos naturais de
+                  autocura do organismo por meio das mãos.
+                </p>
+                <p className="text-gray-700 text-lg leading-relaxed mb-4">
+                  Sou pioneira no Espírito Santo e uma das profissionais que ajudaram a
+                  consolidar essa abordagem no Brasil, com mais de 20.980 horas de
+                  atendimentos em consultório, acompanhando diferentes trajetórias e
+                  compreendendo, diariamente, que corpo e emoção caminham juntos.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
                   Hoje, como fisioterapeuta, escritora, cantora e palestrante, minha missão
-                  é transformar dores em flores, histórias em inspiração e corpos em vozes
-                  que falam, sentem e se curam.
+                  é transformar dores em flores, experiências em inspiração e corpos em
+                  vozes capazes de expressar, sentir e florescer.
                 </p>
                 <blockquote className="border-l-4 border-gray-400 pl-4 mb-8">
                   <p className="text-gray-600 text-base italic leading-relaxed">
