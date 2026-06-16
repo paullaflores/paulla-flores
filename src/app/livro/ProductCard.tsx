@@ -67,15 +67,6 @@ export default function ProductCard() {
           acolhimento, inspiração e a oportunidade de transformar vidas por meio da leitura.
         </p>
 
-        <a
-          href="https://wa.me/5527997385950?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20compra%20de%20livros%20em%20quantidade"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block w-full text-center border-2 border-[#F4655A] text-[#F4655A] py-3 rounded-full font-semibold text-sm hover:bg-[#F4655A] hover:text-white transition-colors mb-6"
-        >
-          Solicitar orçamento pelo WhatsApp
-        </a>
-
         {/* Preço */}
         <div className="mb-6">
           <span className="text-4xl font-semibold text-[#F4655A]">R$ 60,00</span>
