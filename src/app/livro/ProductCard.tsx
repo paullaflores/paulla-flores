@@ -117,7 +117,9 @@ export default function ProductCard() {
 
         {/* Botão comprar */}
         <a
-          href="#"
+          href="https://wa.me/5527997385950?text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20o%20livro%20Cad%C3%AA%20o%20Amor%3F%20Dos%20Espinhos%20%C3%A0%20Flor"
+          target="_blank"
+          rel="noopener noreferrer"
           className="block w-full text-center bg-[#F4655A] text-white py-4 rounded-full font-semibold text-lg hover:opacity-90 transition-opacity mb-3"
         >
           Comprar Agora
