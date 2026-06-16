@@ -158,7 +158,7 @@ export default function ProjetosSociaisPage() {
         <section className="py-16 bg-[#FDF0E8]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
             <h2 className="text-3xl font-semibold text-gray-900 text-center mb-4">
-              Premiações
+              🏆 Premiações
             </h2>
             <p className="text-[#6B3A2A] text-xl text-center max-w-2xl mx-auto mb-12 leading-relaxed">
               &ldquo;Quando o amor-próprio encontra propósito, a transformação acontece. Um projeto premiado duas vezes por fortalecer mulheres e comunidades.&rdquo;
