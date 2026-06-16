@@ -9,11 +9,6 @@ const faqs = [
       "Não. A técnica utiliza toques leves e suaves, sem pressão intensa. A maioria das pessoas sente relaxamento profundo durante as sessões.",
   },
   {
-    question: "Quantas sessões são necessárias?",
-    answer:
-      "Cada caso é único. Algumas pessoas percebem resultados em poucas sessões, enquanto outras podem precisar de um acompanhamento mais longo, dependendo da complexidade do caso.",
-  },
-  {
     question: "A Microfisioterapia substitui tratamentos médicos?",
     answer:
       "Não. A Microfisioterapia atua como abordagem complementar, potencializando os efeitos de outros tratamentos e contribuindo para o equilíbrio global do organismo.",
