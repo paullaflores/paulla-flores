@@ -75,7 +75,7 @@ export default function Home() {
               </div>
             </div>
             <div
-              className="w-full h-[420px] bg-cover bg-top bg-no-repeat"
+              className="w-full h-[500px] bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url('/images/hero-mobile.jpg')" }}
             />
           </div>
