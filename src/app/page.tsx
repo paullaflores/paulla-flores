@@ -45,8 +45,10 @@ export default function Home() {
         {/* Section 1 — Hero */}
         <section
           className="relative min-h-screen bg-cover bg-center bg-no-repeat flex items-center"
-          style={{ backgroundImage: "url('/images/hero.jpg')" }}
+          style={{ backgroundImage: "url('/images/hero.jpg')", backgroundPosition: "70% center" }}
         >
+          <div className="absolute inset-0 bg-white/50 md:bg-transparent" />
+          <div className="absolute inset-0 bg-cover bg-top bg-no-repeat md:hidden" style={{ backgroundImage: "url('/images/hero-mobile.jpg')" }} />
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
             <div className="max-w-xl">
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#1a1a1a] leading-tight mb-6">
@@ -114,10 +116,12 @@ export default function Home() {
         {/* Section 3 — Música */}
         <section
           id="musica"
-          className="min-h-[650px] bg-cover bg-center bg-no-repeat flex items-center py-16"
+          className="relative min-h-[650px] bg-cover bg-center bg-no-repeat flex items-center py-16"
           style={{ backgroundImage: "url('/images/musica.jpg')" }}
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-end">
+          <div className="absolute inset-0 bg-black/40 md:bg-transparent" />
+          <div className="absolute inset-0 bg-cover bg-top bg-no-repeat md:hidden" style={{ backgroundImage: "url('/images/musica-mobile.jpg')" }} />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-start md:justify-end">
             <div className="max-w-lg pr-4 lg:pr-16">
               <h2 className="text-2xl font-semibold text-white mb-6">
                 Música para despertar presença,<br />leveza e amor-próprio
@@ -143,11 +147,12 @@ export default function Home() {
 
         {/* Section 4 — Microfisioterapia */}
         <section
-          className="min-h-[650px] bg-cover bg-no-repeat flex items-center py-16"
+          className="relative min-h-[650px] bg-cover bg-no-repeat flex items-center py-16"
           style={{ backgroundImage: "url('/images/microfisioterapia.jpg')", backgroundPosition: "20% center" }}
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-end">
-            <div className="max-w-xl pr-4 lg:pr-8">
+          <div className="absolute inset-0 bg-cover bg-top bg-no-repeat md:hidden" style={{ backgroundImage: "url('/images/microfisioterapia-mobile.jpg')" }} />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-center md:justify-end">
+            <div className="w-full md:max-w-xl md:pr-4 lg:pr-8">
               <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-8">
                 <h2 className="text-2xl font-semibold text-white mb-6">
                   Microfisioterapia: quando o corpo revela<br />o que a alma sentiu
@@ -196,11 +201,13 @@ export default function Home() {
 
         {/* Section 6 — Livro */}
         <section
-          className="min-h-[650px] bg-cover bg-center bg-no-repeat flex items-center py-16"
+          className="relative min-h-[650px] bg-cover bg-center bg-no-repeat flex items-center py-16"
           style={{ backgroundImage: "url('/images/livro-background.jpg')" }}
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-start">
-            <div className="pl-4 lg:pl-16">
+          <div className="absolute inset-0 bg-cover bg-top bg-no-repeat md:hidden" style={{ backgroundImage: "url('/images/livro-background-mobile.jpg')" }} />
+          <div className="absolute inset-0 bg-black/30 md:bg-transparent" />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-start">
+            <div className="pl-0 md:pl-4 lg:pl-16">
               <div className="max-w-xl">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">
                   Cadê o Amor? Dos Espinhos à Flor
@@ -234,12 +241,13 @@ export default function Home() {
         {/* Section 7 — Quem é Paulla */}
         <section
           id="quem-sou"
-          className="min-h-[650px] bg-cover bg-center bg-no-repeat flex items-center py-16"
+          className="relative min-h-[650px] bg-cover bg-center bg-no-repeat flex items-center py-16"
           style={{ backgroundImage: "url('/images/quem-e-paulla.jpg')" }}
         >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-start">
+          <div className="absolute inset-0 bg-cover bg-top bg-no-repeat md:hidden" style={{ backgroundImage: "url('/images/quem-e-paulla-mobile.jpg')" }} />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-start">
             <div className="pl-4 lg:pl-16">
-              <div className="bg-[#FDF0E8]/75 backdrop-blur-sm rounded-2xl p-8 max-w-xl">
+              <div className="bg-[#FDF0E8]/90 backdrop-blur-sm rounded-2xl p-8 w-full max-w-xl">
                 <h2 className="text-3xl sm:text-4xl font-semibold text-gray-900 mb-6">
                   Minha história também é um caminho de cura
                 </h2>
@@ -289,8 +297,9 @@ export default function Home() {
           style={{ backgroundImage: "url('/images/fundo-verde.jpg')" }}
         >
           <div className="absolute inset-0 bg-black/40" />
-          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-end">
-            <div className="max-w-lg pr-4 lg:pr-16">
+          <div className="absolute inset-0 bg-cover bg-top bg-no-repeat md:hidden" style={{ backgroundImage: "url('/images/fundo-verde-mobile.jpg')" }} />
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex justify-start md:justify-end">
+            <div className="max-w-lg pl-4 md:pl-0 md:pr-4 lg:pr-16">
               <h2 className="text-2xl font-semibold text-white mb-6">
                 Palestras que unem saúde emocional e a arte
               </h2>
