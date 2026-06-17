@@ -210,7 +210,7 @@ export default function Home() {
           {/* Mobile */}
           <div
             className="md:hidden flex flex-col justify-start pt-10 px-4"
-            style={{ backgroundImage: "url('/images/microfisioterapia-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center", minHeight: "800px" }}
+            style={{ backgroundImage: "url('/images/microfisioterapia-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center", minHeight: "680px" }}
           >
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 mx-2">
               <h2 className="text-2xl font-semibold text-[#1a1a1a] mb-6">
@@ -295,7 +295,7 @@ export default function Home() {
           {/* Mobile */}
           <div
             className="md:hidden flex flex-col justify-start px-6 pt-10"
-            style={{ backgroundImage: "url('/images/livro-background-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "1100px" }}
+            style={{ backgroundImage: "url('/images/livro-background-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "820px" }}
           >
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
               Cadê o Amor? Dos Espinhos à Flor
@@ -365,7 +365,7 @@ export default function Home() {
           {/* Mobile */}
           <div
             className="md:hidden flex flex-col justify-start pt-10 px-4"
-            style={{ backgroundImage: "url('/images/quem-e-paulla-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center", minHeight: "1100px" }}
+            style={{ backgroundImage: "url('/images/quem-e-paulla-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center", minHeight: "900px" }}
           >
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 mx-2">
               <h2 className="text-3xl font-semibold text-gray-900 mb-6">
