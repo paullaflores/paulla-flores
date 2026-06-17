@@ -47,7 +47,7 @@ export default function Home() {
           {/* Mobile */}
           <div
             className="md:hidden flex flex-col justify-start px-6 pt-10"
-            style={{ backgroundImage: "url('/images/hero-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "700px" }}
+            style={{ backgroundImage: "url('/images/hero-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "750px" }}
           >
             <h1 className="text-2xl font-semibold text-[#1a1a1a] leading-tight mb-4">
               Transformando dores em flores por meio da Microfisioterapia, da arte e do amor-próprio
@@ -153,7 +153,7 @@ export default function Home() {
           {/* Mobile */}
           <div
             className="md:hidden flex flex-col justify-start px-6 pt-10"
-            style={{ backgroundImage: "url('/images/musica-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "600px" }}
+            style={{ backgroundImage: "url('/images/musica-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "780px" }}
           >
             <h2 className="text-2xl font-semibold text-white mb-6">
               Música para despertar presença, leveza e amor-próprio
@@ -209,30 +209,32 @@ export default function Home() {
         <section>
           {/* Mobile */}
           <div
-            className="md:hidden flex flex-col justify-start px-6 pt-10"
-            style={{ backgroundImage: "url('/images/microfisioterapia-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "600px" }}
+            className="md:hidden flex flex-col justify-start pt-10 px-4"
+            style={{ backgroundImage: "url('/images/microfisioterapia-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center", minHeight: "750px" }}
           >
-            <h2 className="text-2xl font-semibold text-[#1a1a1a] mb-6">
-              Microfisioterapia: quando o corpo revela o que a alma sentiu
-            </h2>
-            <p className="text-gray-700 text-base leading-relaxed mb-4">
-              Você sabia que tudo o que vivemos e sentimos pode ficar guardado no corpo?
-            </p>
-            <p className="text-gray-700 text-base leading-relaxed mb-4">
-              A Microfisioterapia é uma técnica da Fisioterapia que utiliza toques sutis
-              para ajudar o corpo a identificar e reorganizar memórias celulares ligadas
-              a traumas físicos e emocionais.
-            </p>
-            <p className="text-gray-700 text-base leading-relaxed mb-8">
-              É uma abordagem natural, não invasiva e complementar, indicada para quem
-              busca aliviar dores, reduzir sintomas e reencontrar equilíbrio físico e emocional.
-            </p>
-            <Link
-              href="/microfisioterapia"
-              className="inline-block bg-coral text-white px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-opacity"
-            >
-              Conheça a Microfisioterapia
-            </Link>
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 mx-2">
+              <h2 className="text-2xl font-semibold text-[#1a1a1a] mb-6">
+                Microfisioterapia: quando o corpo revela o que a alma sentiu
+              </h2>
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
+                Você sabia que tudo o que vivemos e sentimos pode ficar guardado no corpo?
+              </p>
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
+                A Microfisioterapia é uma técnica da Fisioterapia que utiliza toques sutis
+                para ajudar o corpo a identificar e reorganizar memórias celulares ligadas
+                a traumas físicos e emocionais.
+              </p>
+              <p className="text-gray-700 text-base leading-relaxed mb-8">
+                É uma abordagem natural, não invasiva e complementar, indicada para quem
+                busca aliviar dores, reduzir sintomas e reencontrar equilíbrio físico e emocional.
+              </p>
+              <Link
+                href="/microfisioterapia"
+                className="inline-block bg-coral text-white px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-opacity"
+              >
+                Conheça a Microfisioterapia
+              </Link>
+            </div>
           </div>
           {/* Desktop */}
           <div
@@ -293,7 +295,7 @@ export default function Home() {
           {/* Mobile */}
           <div
             className="md:hidden flex flex-col justify-start px-6 pt-10"
-            style={{ backgroundImage: "url('/images/livro-background-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "600px" }}
+            style={{ backgroundImage: "url('/images/livro-background-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "750px" }}
           >
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
               Cadê o Amor? Dos Espinhos à Flor
@@ -362,46 +364,48 @@ export default function Home() {
         <section id="quem-sou">
           {/* Mobile */}
           <div
-            className="md:hidden flex flex-col justify-start px-6 pt-10"
-            style={{ backgroundImage: "url('/images/quem-e-paulla-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "600px" }}
+            className="md:hidden flex flex-col justify-start pt-10 px-4"
+            style={{ backgroundImage: "url('/images/quem-e-paulla-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center", minHeight: "900px" }}
           >
-            <h2 className="text-3xl font-semibold text-gray-900 mb-6">
-              Minha história também é um caminho de cura
-            </h2>
-            <p className="text-gray-700 text-base leading-relaxed mb-4">
-              Antes, Paula Bragança. Hoje, Paulla Flores, para o desabrochar da vida.
-            </p>
-            <p className="text-gray-700 text-base leading-relaxed mb-4">
-              Durante muitos anos, escondi minha arte e minha voz. Minha trajetória
-              profissional começou no curso de Letras, mas foi na Fisioterapia que
-              encontrei um caminho de cura, primeiro para mim e, depois, para centenas
-              de pessoas que passaram pelo meu consultório.
-            </p>
-            <p className="text-gray-700 text-base leading-relaxed mb-4">
-              Há 20 anos atuo como fisioterapeuta e, há 19 anos, dedico-me à
-              Microfisioterapia, a fisioterapia das emoções, uma técnica desenvolvida
-              na França que estimula a autorregulação e os processos naturais de
-              autocura do organismo por meio das mãos.
-            </p>
-            <p className="text-gray-700 text-base leading-relaxed mb-4">
-              Sou pioneira no Espírito Santo e uma das profissionais que ajudaram a
-              consolidar essa abordagem no Brasil, com mais de 20.980 horas de
-              atendimentos em consultório, acompanhando diferentes trajetórias e
-              compreendendo, diariamente, que corpo e emoção caminham juntos.
-            </p>
-            <p className="text-gray-700 text-base leading-relaxed mb-6">
-              Hoje, como fisioterapeuta, escritora, cantora e palestrante, minha missão
-              é transformar dores em flores, experiências em inspiração e corpos em
-              vozes capazes de expressar, sentir e florescer.
-            </p>
-            <blockquote className="border-l-4 border-gray-400 pl-4 mb-8">
-              <p className="text-gray-700 text-base italic leading-relaxed">
-                &ldquo;Olhar para a verdade e acolhê-la fez a minha vida virar de cabeça
-                para baixo, literalmente, mas para melhor.&rdquo;
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 mx-2">
+              <h2 className="text-3xl font-semibold text-gray-900 mb-6">
+                Minha história também é um caminho de cura
+              </h2>
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
+                Antes, Paula Bragança. Hoje, Paulla Flores, para o desabrochar da vida.
               </p>
-              <cite className="text-gray-700 text-sm not-italic mt-2 block">— Paulla Flores</cite>
-            </blockquote>
-            <p className="text-xs text-gray-700 mt-4">CREFITO 105294-F</p>
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
+                Durante muitos anos, escondi minha arte e minha voz. Minha trajetória
+                profissional começou no curso de Letras, mas foi na Fisioterapia que
+                encontrei um caminho de cura, primeiro para mim e, depois, para centenas
+                de pessoas que passaram pelo meu consultório.
+              </p>
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
+                Há 20 anos atuo como fisioterapeuta e, há 19 anos, dedico-me à
+                Microfisioterapia, a fisioterapia das emoções, uma técnica desenvolvida
+                na França que estimula a autorregulação e os processos naturais de
+                autocura do organismo por meio das mãos.
+              </p>
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
+                Sou pioneira no Espírito Santo e uma das profissionais que ajudaram a
+                consolidar essa abordagem no Brasil, com mais de 20.980 horas de
+                atendimentos em consultório, acompanhando diferentes trajetórias e
+                compreendendo, diariamente, que corpo e emoção caminham juntos.
+              </p>
+              <p className="text-gray-700 text-base leading-relaxed mb-6">
+                Hoje, como fisioterapeuta, escritora, cantora e palestrante, minha missão
+                é transformar dores em flores, experiências em inspiração e corpos em
+                vozes capazes de expressar, sentir e florescer.
+              </p>
+              <blockquote className="border-l-4 border-gray-400 pl-4 mb-8">
+                <p className="text-gray-700 text-base italic leading-relaxed">
+                  &ldquo;Olhar para a verdade e acolhê-la fez a minha vida virar de cabeça
+                  para baixo, literalmente, mas para melhor.&rdquo;
+                </p>
+                <cite className="text-gray-700 text-sm not-italic mt-2 block">— Paulla Flores</cite>
+              </blockquote>
+              <p className="text-xs text-gray-700 mt-4">CREFITO 105294-F</p>
+            </div>
           </div>
           {/* Desktop */}
           <div
@@ -457,35 +461,29 @@ export default function Home() {
         {/* Section 8 — Palestras */}
         <section id="palestras">
           {/* Mobile */}
-          <div className="md:hidden">
-            <div className="px-6 py-12 bg-[#1a1a1a]">
-              <h2 className="text-2xl font-semibold text-white mb-6">
-                Palestras que unem saúde emocional e a arte
-              </h2>
-              <p className="text-white/80 text-base leading-relaxed mb-4">
-                Paulla Flores leva para empresas, escolas, eventos e comunidades
-                experiências vivas sobre saúde emocional, amor-próprio, superação
-                e criatividade.
-              </p>
-              <p className="text-white/80 text-base leading-relaxed mb-10">
-                Suas palestras unem conhecimento, música autoral, sensibilidade e
-                vivência prática, criando encontros marcantes que inspiram pessoas
-                a olharem para dentro e despertarem sua melhor versão.
-              </p>
-              <Link
-                href="/contato"
-                className="inline-block bg-coral text-white px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-opacity"
-              >
-                Convidar Paulla para um evento
-              </Link>
-            </div>
-            <Image
-              src="/images/fundo-verde-mobile.jpg"
-              alt="Palestras"
-              width={750}
-              height={900}
-              className="w-full h-auto object-cover"
-            />
+          <div
+            className="md:hidden flex flex-col justify-start pt-10 px-6"
+            style={{ backgroundImage: "url('/images/fundo-verde-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "750px" }}
+          >
+            <h2 className="text-2xl font-semibold text-white mb-6">
+              Palestras que unem saúde emocional e a arte
+            </h2>
+            <p className="text-white/80 text-base leading-relaxed mb-4">
+              Paulla Flores leva para empresas, escolas, eventos e comunidades
+              experiências vivas sobre saúde emocional, amor-próprio, superação
+              e criatividade.
+            </p>
+            <p className="text-white/80 text-base leading-relaxed mb-10">
+              Suas palestras unem conhecimento, música autoral, sensibilidade e
+              vivência prática, criando encontros marcantes que inspiram pessoas
+              a olharem para dentro e despertarem sua melhor versão.
+            </p>
+            <Link
+              href="/contato"
+              className="inline-block bg-coral text-white px-8 py-4 rounded-full font-semibold hover:opacity-90 transition-opacity"
+            >
+              Convidar Paulla para um evento
+            </Link>
           </div>
           {/* Desktop */}
           <div

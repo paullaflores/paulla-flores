@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   title: "Paulla Flores - Instituto Ser Você",
   description:
     "Fisioterapeuta, escritora, cantora e palestrante. Transformando dores em flores por meio da Microfisioterapia, da arte e do amor-próprio.",
+  icons: {
+    icon: [{ url: '/favicon.png', type: 'image/png' }],
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
