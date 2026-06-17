@@ -74,10 +74,16 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div
-              className="w-full h-[500px] bg-cover bg-center bg-no-repeat"
-              style={{ backgroundImage: "url('/images/hero-mobile.jpg')" }}
-            />
+            <div className="w-full">
+              <Image
+                src="/images/hero-mobile.jpg"
+                alt="Paulla Flores"
+                width={750}
+                height={900}
+                className="w-full h-auto object-cover"
+                priority
+              />
+            </div>
           </div>
 
           {/* Desktop: mantém layout original com background */}
