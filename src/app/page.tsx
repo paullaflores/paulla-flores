@@ -43,26 +43,21 @@ export default function Home() {
       <Header />
       <main>
         {/* Section 1 — Hero */}
-        <section
-          className="relative min-h-screen bg-cover bg-center bg-no-repeat flex items-center"
-          style={{ backgroundImage: "url('/images/hero.jpg')", backgroundPosition: "70% center" }}
-        >
-          <div className="absolute inset-0 bg-white/50 md:bg-transparent" />
-          <div className="absolute inset-0 bg-cover bg-top bg-no-repeat md:hidden" style={{ backgroundImage: "url('/images/hero-mobile.jpg')" }} />
-          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
-            <div className="max-w-xl">
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#1a1a1a] leading-tight mb-6">
-                Transformando dores em flores por meio da Microfisioterapia,
-                da arte e do amor-próprio
+        <section className="relative">
+          {/* Mobile: layout em coluna */}
+          <div className="md:hidden">
+            <div className="bg-[#F5EDE4] px-6 pt-16 pb-8">
+              <h1 className="text-2xl font-semibold text-[#1a1a1a] leading-tight mb-6">
+                Transformando dores em flores por meio da Microfisioterapia, da arte e do amor-próprio
               </h1>
-              <p className="text-[#666666] text-lg font-normal leading-relaxed mb-8">
+              <p className="text-[#666666] text-base leading-relaxed mb-8">
                 Há 19 anos, Paulla Flores ajuda pessoas a saírem de dores físicas e emocionais.
                 Fisioterapeuta, pioneira com a prática da Microfisioterapia no Estado do Espírito Santo,
                 técnica que ajuda o corpo a identificar e liberar traumas emocionais. Ela integra saúde emocional
                 e mental com literatura e música, como escritora, cantora e palestrante. Em uma
                 jornada de autocuidado, autoconhecimento, cultura e transformação.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col gap-4">
                 <a
                   href="https://wa.me/5527997385950"
                   target="_blank"
@@ -77,6 +72,49 @@ export default function Home() {
                 >
                   Conheça minha história
                 </Link>
+              </div>
+            </div>
+            <div
+              className="w-full h-[420px] bg-cover bg-top bg-no-repeat"
+              style={{ backgroundImage: "url('/images/hero-mobile.jpg')" }}
+            />
+          </div>
+
+          {/* Desktop: mantém layout original com background */}
+          <div
+            className="hidden md:flex relative min-h-screen bg-cover bg-no-repeat items-center"
+            style={{ backgroundImage: "url('/images/hero.jpg')", backgroundPosition: "70% center" }}
+          >
+            <div className="absolute inset-0 bg-white/10" />
+            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+              <div className="max-w-xl">
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#1a1a1a] leading-tight mb-6">
+                  Transformando dores em flores por meio da Microfisioterapia,
+                  da arte e do amor-próprio
+                </h1>
+                <p className="text-[#666666] text-lg font-normal leading-relaxed mb-8">
+                  Há 19 anos, Paulla Flores ajuda pessoas a saírem de dores físicas e emocionais.
+                  Fisioterapeuta, pioneira com a prática da Microfisioterapia no Estado do Espírito Santo,
+                  técnica que ajuda o corpo a identificar e liberar traumas emocionais. Ela integra saúde emocional
+                  e mental com literatura e música, como escritora, cantora e palestrante. Em uma
+                  jornada de autocuidado, autoconhecimento, cultura e transformação.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <a
+                    href="https://wa.me/5527997385950"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-coral text-white px-8 py-4 rounded-full font-semibold text-center hover:opacity-90 transition-opacity"
+                  >
+                    Agendar atendimento
+                  </a>
+                  <Link
+                    href="#quem-sou"
+                    className="border-2 border-marrom text-marrom px-8 py-4 rounded-full font-semibold text-center hover:bg-marrom hover:text-white transition-colors"
+                  >
+                    Conheça minha história
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
