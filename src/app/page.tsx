@@ -51,10 +51,10 @@ export default function Home() {
               alt="Paulla Flores"
               width={750}
               height={1200}
-              className="w-full h-auto object-cover"
+              className="w-full object-cover object-top"
               priority
             />
-            <div className="absolute inset-0 flex flex-col justify-start px-6 pt-16">
+            <div className="absolute inset-0 flex flex-col justify-start px-6 pt-12 pb-6">
               <h1 className="text-2xl font-semibold text-[#1a1a1a] leading-tight mb-4">
                 Transformando dores em flores por meio da Microfisioterapia, da arte e do amor-próprio
               </h1>
@@ -250,7 +250,7 @@ export default function Home() {
               alt="Microfisioterapia"
               width={750}
               height={900}
-              className="w-full h-auto object-cover"
+              className="w-full object-cover object-top"
             />
           </div>
           {/* Desktop */}
@@ -342,7 +342,8 @@ export default function Home() {
               alt="Livro"
               width={750}
               height={900}
-              className="w-full h-auto object-cover"
+              className="w-full h-auto"
+              style={{ maxHeight: '400px', objectFit: 'cover', objectPosition: 'bottom' }}
             />
           </div>
           {/* Desktop */}
@@ -387,42 +388,42 @@ export default function Home() {
         <section id="quem-sou">
           {/* Mobile */}
           <div className="md:hidden">
-            <div className="px-6 py-12 bg-[#f5a623]">
-              <h2 className="text-3xl font-semibold text-[#1a1a1a] mb-6">
+            <div className="px-6 py-12 bg-[#FDF0E8]">
+              <h2 className="text-3xl font-semibold text-gray-900 mb-6">
                 Minha história também é um caminho de cura
               </h2>
-              <p className="text-gray-900 text-base leading-relaxed mb-4">
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
                 Antes, Paula Bragança. Hoje, Paulla Flores, para o desabrochar da vida.
               </p>
-              <p className="text-gray-900 text-base leading-relaxed mb-4">
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
                 Durante muitos anos, escondi minha arte e minha voz. Minha trajetória
                 profissional começou no curso de Letras, mas foi na Fisioterapia que
                 encontrei um caminho de cura, primeiro para mim e, depois, para centenas
                 de pessoas que passaram pelo meu consultório.
               </p>
-              <p className="text-gray-900 text-base leading-relaxed mb-4">
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
                 Há 20 anos atuo como fisioterapeuta e, há 19 anos, dedico-me à
                 Microfisioterapia, a fisioterapia das emoções, uma técnica desenvolvida
                 na França que estimula a autorregulação e os processos naturais de
                 autocura do organismo por meio das mãos.
               </p>
-              <p className="text-gray-900 text-base leading-relaxed mb-4">
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
                 Sou pioneira no Espírito Santo e uma das profissionais que ajudaram a
                 consolidar essa abordagem no Brasil, com mais de 20.980 horas de
                 atendimentos em consultório, acompanhando diferentes trajetórias e
                 compreendendo, diariamente, que corpo e emoção caminham juntos.
               </p>
-              <p className="text-gray-900 text-base leading-relaxed mb-6">
+              <p className="text-gray-700 text-base leading-relaxed mb-6">
                 Hoje, como fisioterapeuta, escritora, cantora e palestrante, minha missão
                 é transformar dores em flores, experiências em inspiração e corpos em
                 vozes capazes de expressar, sentir e florescer.
               </p>
-              <blockquote className="border-l-4 border-gray-700 pl-4 mb-8">
-                <p className="text-gray-800 text-base italic leading-relaxed">
+              <blockquote className="border-l-4 border-gray-400 pl-4 mb-8">
+                <p className="text-gray-700 text-base italic leading-relaxed">
                   &ldquo;Olhar para a verdade e acolhê-la fez a minha vida virar de cabeça
                   para baixo, literalmente, mas para melhor.&rdquo;
                 </p>
-                <cite className="text-gray-800 text-sm not-italic mt-2 block">— Paulla Flores</cite>
+                <cite className="text-gray-700 text-sm not-italic mt-2 block">— Paulla Flores</cite>
               </blockquote>
               <p className="text-xs text-gray-700 mt-4">CREFITO 105294-F</p>
             </div>
