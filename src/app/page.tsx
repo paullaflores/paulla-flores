@@ -44,20 +44,28 @@ export default function Home() {
       <main>
         {/* Section 1 — Hero */}
         <section className="relative">
-          {/* Mobile: layout em coluna */}
-          <div className="md:hidden">
-            <div className="bg-[#F5EDE4] px-6 pt-16 pb-8">
-              <h1 className="text-2xl font-semibold text-[#1a1a1a] leading-tight mb-6">
+          {/* Mobile: texto sobre imagem */}
+          <div className="md:hidden relative">
+            <Image
+              src="/images/hero-mobile.jpg"
+              alt="Paulla Flores"
+              width={750}
+              height={1200}
+              className="w-full h-auto object-cover"
+              priority
+            />
+            <div className="absolute inset-0 flex flex-col justify-start px-6 pt-16">
+              <h1 className="text-2xl font-semibold text-[#1a1a1a] leading-tight mb-4">
                 Transformando dores em flores por meio da Microfisioterapia, da arte e do amor-próprio
               </h1>
-              <p className="text-[#666666] text-base leading-relaxed mb-8">
+              <p className="text-[#666666] text-sm leading-relaxed mb-6">
                 Há 19 anos, Paulla Flores ajuda pessoas a saírem de dores físicas e emocionais.
                 Fisioterapeuta, pioneira com a prática da Microfisioterapia no Estado do Espírito Santo,
                 técnica que ajuda o corpo a identificar e liberar traumas emocionais. Ela integra saúde emocional
                 e mental com literatura e música, como escritora, cantora e palestrante. Em uma
                 jornada de autocuidado, autoconhecimento, cultura e transformação.
               </p>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-3">
                 <a
                   href="https://wa.me/5527997385950"
                   target="_blank"
@@ -73,16 +81,6 @@ export default function Home() {
                   Conheça minha história
                 </Link>
               </div>
-            </div>
-            <div className="w-full">
-              <Image
-                src="/images/hero-mobile.jpg"
-                alt="Paulla Flores"
-                width={750}
-                height={900}
-                className="w-full h-auto object-cover"
-                priority
-              />
             </div>
           </div>
 
