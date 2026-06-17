@@ -47,7 +47,7 @@ export default function Home() {
           {/* Mobile */}
           <div
             className="md:hidden flex flex-col justify-start px-6 pt-10"
-            style={{ backgroundImage: "url('/images/hero-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "920px" }}
+            style={{ backgroundImage: "url('/images/hero-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "1050px" }}
           >
             <h1 className="text-2xl font-semibold text-[#1a1a1a] leading-tight mb-4">
               Transformando dores em flores por meio da Microfisioterapia, da arte e do amor-próprio
@@ -295,7 +295,7 @@ export default function Home() {
           {/* Mobile */}
           <div
             className="md:hidden flex flex-col justify-start px-6 pt-10"
-            style={{ backgroundImage: "url('/images/livro-background-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "920px" }}
+            style={{ backgroundImage: "url('/images/livro-background-mobile.jpg')", backgroundSize: "cover", backgroundPosition: "center top", minHeight: "1100px" }}
           >
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
               Cadê o Amor? Dos Espinhos à Flor
