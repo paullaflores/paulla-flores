@@ -392,6 +392,12 @@ export default function Home() {
                 atendimentos em consultório, acompanhando diferentes trajetórias e
                 compreendendo, diariamente, que corpo e emoção caminham juntos.
               </p>
+              <p className="text-gray-700 text-base leading-relaxed mb-4">
+                Minha formação inclui três pós-graduações: Gestão em Saúde, pela Fundação
+                Oswaldo Cruz (Fiocruz), no Rio de Janeiro; Atenção Básica em Saúde, pela
+                São Camilo, no Espírito Santo; e Terapia Manual e Postura, em Maringá,
+                no Paraná.
+              </p>
               <p className="text-gray-700 text-base leading-relaxed mb-6">
                 Hoje, como fisioterapeuta, escritora, cantora e palestrante, minha missão
                 é transformar dores em flores, experiências em inspiração e corpos em
@@ -438,6 +444,12 @@ export default function Home() {
                     consolidar essa abordagem no Brasil, com mais de 20.980 horas de
                     atendimentos em consultório, acompanhando diferentes trajetórias e
                     compreendendo, diariamente, que corpo e emoção caminham juntos.
+                  </p>
+                  <p className="text-gray-700 text-lg leading-relaxed mb-4">
+                    Minha formação inclui três pós-graduações: Gestão em Saúde, pela Fundação
+                    Oswaldo Cruz (Fiocruz), no Rio de Janeiro; Atenção Básica em Saúde, pela
+                    São Camilo, no Espírito Santo; e Terapia Manual e Postura, em Maringá,
+                    no Paraná.
                   </p>
                   <p className="text-gray-700 text-lg leading-relaxed mb-6">
                     Hoje, como fisioterapeuta, escritora, cantora e palestrante, minha missão

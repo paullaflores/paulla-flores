@@ -8,15 +8,6 @@ export const metadata = {
     "Iniciativas culturais e educativas que levam amor, literatura e cuidado emocional a comunidades no Espírito Santo e pelo Brasil.",
 };
 
-const sairDaAgressaoImages = [
-  { src: "/images/logo-projetos-sociais.png", alt: "Sair da Agressão e Ir para o Amor — logo", contain: true },
-  { src: "/images/sair-da-agressao-1.jpeg", alt: "Sair da Agressão — foto 1" },
-  { src: "/images/sair-da-agressao-2.jpeg", alt: "Sair da Agressão — foto 2" },
-  { src: "/images/sair-da-agressao-3.jpg", alt: "Sair da Agressão — foto 3" },
-  { src: "/images/sair-da-agressao-4.jpg", alt: "Sair da Agressão — foto 4" },
-  { src: "/images/sair-da-agressao-5.jpg", alt: "Sair da Agressão — foto 5" },
-];
-
 const amorLiterarioImages = [
   { src: "/images/amor-literario-1.jpeg", alt: "Projeto Amor Literário — foto 1" },
   { src: "/images/amor-literario-2.jpeg", alt: "Projeto Amor Literário — foto 2" },
@@ -56,14 +47,36 @@ export default function ProjetosSociaisPage() {
           </div>
         </section>
 
-        {/* Seção 2 — Sair da Agressão e Ir para o Amor */}
+        {/* Seção 2 — Mulheres em Flor */}
         <section className="py-20 bg-[#FDF0E8]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:items-stretch">
-              <div>
+            <div className="max-w-3xl mx-auto">
                 <h2 className="text-3xl font-semibold text-gray-900 mb-6">
-                  Sair da Agressão e Ir para o Amor
+                  Mulheres em Flor
                 </h2>
+
+                <div className="border-l-2 border-[#F4655A]/40 pl-5 mb-6">
+                  <p className="text-[#6B3A2A] text-base font-medium leading-relaxed">
+                    De Sair da Agressão e Ir para o Amor a Mulheres em Flor
+                  </p>
+                </div>
+
+                <p className="text-gray-700 text-lg leading-relaxed">
+                  Depois de anos de histórias, encontros, aprendizados e transformações, o projeto Sair da Agressão e Ir para o Amor inicia um novo capítulo e passa a se chamar Mulheres em Flor.
+                </p>
+
+              <div className="flex items-center justify-center my-8 sm:my-10">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/mulheres-em-flor (2).png"
+                  alt="Mulheres em Flor — logomarca"
+                  className="w-full max-w-xs sm:max-w-sm h-auto object-contain"
+                />
+              </div>
+
+                <p className="text-gray-700 text-lg leading-relaxed mb-5">
+                  A nova identidade amplia seu propósito de promover saúde emocional e mental, cultura, arte e acolhimento às mulheres. O nome muda, mas a essência permanece: transformar vidas por meio do conhecimento, do cuidado e do amor-próprio.
+                </p>
 
                 <p className="text-gray-700 text-lg leading-relaxed mb-5">
                   O projeto nasceu da coragem de transformar dor em propósito. Depois de
@@ -72,11 +85,11 @@ export default function ProjetosSociaisPage() {
                   mulheres, adolescentes e jovens de comunidades a fazerem o mesmo.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-5">
-                  Implementado em cinco municípios do Espírito Santo (Vitória, Serra,
-                  Guarapari, Cachoeiro de Itapemirim e Cariacica) entre 2021 e 2025, o
-                  projeto realiza palestras-show e rodas de conversa com música ao vivo,
-                  trabalhando educação emocional, amor-próprio, relacionamentos saudáveis
-                  e autocura, com práticas de meditação, escrita terapêutica e respiração
+                  Implementado em seis municípios do Espírito Santo, Vitória, Serra, Guarapari, Cachoeiro de Itapemirim, Cariacica e Santa Leopoldina, com atividades realizadas em diferentes localidades desde 2021, o projeto promove palestras-show e rodas de conversa com música ao vivo, abordando educação emocional e mental e amor-próprio.
+                </p>
+                <p className="text-gray-700 text-lg leading-relaxed mb-5">
+                  O projeto continua ativo, promovendo relacionamentos saudáveis e
+                  autocura, com práticas de meditação, escrita terapêutica e respiração
                   consciente.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
@@ -95,9 +108,8 @@ export default function ProjetosSociaisPage() {
                     Paulla Flores
                   </cite>
                 </blockquote>
-              </div>
 
-              <GaleriaLightbox images={sairDaAgressaoImages} />
+
             </div>
           </div>
         </section>
